@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 100%;
+  height: 1000px;
+  background-color: silver;
+}
+
+.header {
+  width: 100%;
+  height: 150px;
+  background-color: rgb(40, 40, 95);
+}
+
+.header .logo {
+  width: 20%;
+  height: 150px;
+  background-color: rgb(25, 175, 221);
+  float: left;
+  border-radius: 30%;
+}
+
+.header .logo img {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.header .banner {
+  width: 80%;
+  height: 150px;
+  background-color: rgb(92, 211, 247);
+  float: left;
+}
+
+.header .banner img {
+  width: 100%;
+  height: 100%;
+}
+
+.menu {
+  width: 100%;
+  height: 50px;
+  background-color: aqua;
+}
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.menu ul li {
+  float: left;
+  width: 20%;
+}
+.menu ul li a {
+  text-decoration: none;
+  background-color: aquamarine;
+  text-align: center;
+  padding: 10px 5px;
+  display: block;
+  border-radius: 0px 0px 50px 40px;
+  transition: background-color 2s;
+}
+.menu ul li a:hover {
+  background-color: blue;
+  color: red;
+  border-radius: 40px 50px 0 0;
+}
+
+.content {
+  width: 100%;
+  height: 60%;
+  background-color: rgb(28, 218, 218);
+  float: left;
+}
+.content .leftsidebar {
+  width: 30%;
+  height: 100%;
+  background-color: yellowgreen;
+  float: left;
+}
+.content .middlesidebar {
+  width: 35%;
+  height: 100%;
+  background-color: rgb(102, 131, 46);
+  float: left;
+}
+.content .rightsidebar {
+  width: 35%;
+  height: 100%;
+  background-color: rgb(57, 73, 24);
+  float: left;
+}
+
+.bigFooter {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(49, 48, 48);
+}
+
+.footer {
+  width: 100%;
+  height: 10%;
+  background-color: rgb(58, 40, 40);
+}/*# sourceMappingURL=home.css.map */
